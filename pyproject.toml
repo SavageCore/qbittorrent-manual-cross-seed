@@ -24,7 +24,7 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "qbittorrent-api>=2024.1.59",
     "requests>=2.31.0",
-    "questionary>=2.0.1",
+    "textual>=3.0.0",
     "rich>=13.7.0",
 ]
 

@@ -7,7 +7,8 @@ A CLI tool to manually trigger [cross-seed](https://cross-seed.org/) searches fo
 ## Features
 
 - **Direct Hash Mode**: Pass info hash(es) directly as command-line arguments
-- **Interactive Mode**: Connect to qBittorrent and select torrents from a searchable, multi-selectable list
+- **Interactive Mode**: Connect to qBittorrent and select torrents from a searchable, multi-selectable TUI (powered by [Textual](https://github.com/Textualize/textual))
+- **Real-time Filtering**: Type to filter torrents by name in interactive mode
 - **Configurable**: All settings via environment variables or `.env` file
 - **Logging**: Detailed logging to `/var/logs/qbittorrent-manual-cross-seed/` (Linux) or `%LOCALAPPDATA%\qbittorrent-manual-cross-seed\logs\` (Windows)
 
@@ -75,7 +76,13 @@ Run without arguments to connect to qBittorrent and select torrents interactivel
 python main.py
 ```
 
-Use **Space** to select/deselect torrents and **Enter** to confirm.
+**Keyboard shortcuts:**
+- **Space**: Toggle selection on current row
+- **Enter**: Confirm selection and trigger cross-seed
+- **/** or type: Focus search/filter input
+- **a**: Select all visible torrents
+- **n**: Deselect all torrents
+- **q** or **Escape**: Quit
 
 ### Direct Hash Mode
 
