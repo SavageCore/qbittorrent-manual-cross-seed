@@ -1,5 +1,7 @@
 # qBittorrent Manual Cross-Seed
 
+[![Code style: black](https://github.com/SavageCore/qbittorrent-manual-cross-seed/actions/workflows/lint.yml/badge.svg)](https://github.com/SavageCore/qui-updater-freebsd/actions/workflows/lint.yml)
+
 A CLI tool to manually trigger [cross-seed](https://cross-seed.org/) searches for qBittorrent torrents.
 
 ## Features
@@ -15,7 +17,7 @@ A CLI tool to manually trigger [cross-seed](https://cross-seed.org/) searches fo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qbittorrent-manual-cross-seed.git
+git clone https://github.com/SavageCore/qbittorrent-manual-cross-seed.git
 cd qbittorrent-manual-cross-seed
 
 # Install dependencies and create virtual environment
@@ -29,7 +31,7 @@ uv run python main.py
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qbittorrent-manual-cross-seed.git
+git clone https://github.com/SavageCore/qbittorrent-manual-cross-seed.git
 cd qbittorrent-manual-cross-seed
 
 # Create virtual environment (recommended)

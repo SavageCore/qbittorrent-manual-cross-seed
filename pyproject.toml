@@ -35,9 +35,9 @@ dev = ["black>=24.0.0"]
 qbit-cross-seed = "main:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/qbittorrent-manual-cross-seed"
-Repository = "https://github.com/yourusername/qbittorrent-manual-cross-seed"
-Issues = "https://github.com/yourusername/qbittorrent-manual-cross-seed/issues"
+Homepage = "https://github.com/SavageCore/qbittorrent-manual-cross-seed"
+Repository = "https://github.com/SavageCore/qbittorrent-manual-cross-seed"
+Issues = "https://github.com/SavageCore/qbittorrent-manual-cross-seed/issues"
 
 [dependency-groups]
 dev = ["black>=24.0.0"]
