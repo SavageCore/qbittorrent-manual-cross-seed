@@ -47,7 +47,7 @@ def setup_logging() -> logging.Logger:
             / "logs"
         )
     else:
-        log_dir = Path("/var/logs/qbittorrent-manual-cross-seed")
+        log_dir = Path("/var/log/qbittorrent-manual-cross-seed")
 
     log_dir.mkdir(parents=True, exist_ok=True)
     log_file = log_dir / "cross-seed.log"
