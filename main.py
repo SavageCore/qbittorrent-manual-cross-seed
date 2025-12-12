@@ -216,7 +216,7 @@ Examples:
         # Interactive mode - connect to qBittorrent and select torrents
         console.print("[bold blue]Connecting to qBittorrent...[/bold blue]")
         client = connect_qbittorrent(config)
-        console.print(f"[green]Connected to qBittorrent v{client.app.version}[/green]")
+        console.print(f"[green]Connected to qBittorrent {client.app.version}[/green]")
 
         torrents = get_torrents(client)
         if not torrents:
