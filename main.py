@@ -120,8 +120,9 @@ def trigger_cross_seed(
 
 
 def get_torrents(client: qbittorrentapi.Client) -> list:
-    """Get all torrents from qBittorrent."""
-    return client.torrents_info()
+    """Get all torrents from qBittorrent, sorted by name."""
+    torrents = client.torrents_info()
+    return sorted(torrents, key=lambda t: t.name.lower())
 
 
 def display_torrents(torrents: list) -> None:
